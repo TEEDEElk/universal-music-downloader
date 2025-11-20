@@ -1,0 +1,112 @@
+═══════════════════════════════════════════════════════════════════
+  🎵 UNIVERSAL MUSIC TRACK DOWNLOADER - SETUP GUIDE
+═══════════════════════════════════════════════════════════════════
+
+📦 WHAT'S INCLUDED:
+------------------
+✓ SoundCloud downloader
+✓ Spotify downloader  
+✓ Apple Music downloader
+✓ 320kbps MP3 export
+✓ Lossless WAV export
+✓ Metadata & album art embedding
+
+
+🚀 QUICK SETUP (3 METHODS):
+============================
+
+METHOD 1: STANDALONE EXECUTABLE (EASIEST)
+------------------------------------------
+For complete beginners - no installation needed!
+
+1. Go to the "dist" folder
+2. Double-click: MusicDownloader.exe
+3. Done! 🎉
+
+Note: Windows may show a warning because the app is unsigned.
+Click "More info" → "Run anyway"
+
+
+METHOD 2: PYTHON SCRIPT (RECOMMENDED)
+--------------------------------------
+Requires: Python 3.7 or higher
+
+1. Install Python from: https://python.org/downloads
+   ✓ IMPORTANT: Check "Add Python to PATH" during installation
+
+2. Open Command Prompt in this folder (Shift + Right-click → "Open PowerShell here")
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Run FFmpeg installer:
+   Double-click: install_ffmpeg.bat
+
+5. Launch the app:
+   python downloader_gui.py
+   OR
+   Double-click: launch.bat
+
+
+METHOD 3: MANUAL SETUP
+-----------------------
+For advanced users or if Method 2 fails:
+
+1. Install Python 3.7+ from https://python.org
+2. Install packages manually:
+   pip install yt-dlp spotdl mutagen requests
+3. Download FFmpeg from https://ffmpeg.org/download.html
+   - Extract to "ffmpeg" folder in this directory
+4. Run: python downloader_gui.py
+
+
+📖 HOW TO USE:
+==============
+1. Select platform: 🎧 SoundCloud, 🎵 Spotify, or 🍎 Apple Music
+2. Choose format: MP3 (320kbps) or WAV (lossless)
+3. Paste track/playlist/album URL
+4. Click "Add to Queue" (for batch downloads)
+5. Click "Start Download"
+6. Files saved to "Downloads" folder
+
+
+🔗 SUPPORTED URLS:
+==================
+SoundCloud:  https://soundcloud.com/artist/track-name
+Spotify:     https://open.spotify.com/track/...
+Apple Music: https://music.apple.com/us/album/...
+
+
+⚠️ TROUBLESHOOTING:
+===================
+❌ "yt-dlp not found" error:
+   → Run: pip install yt-dlp
+
+❌ "FFmpeg not found" error:
+   → Run: install_ffmpeg.bat
+   → Or download manually from https://ffmpeg.org
+
+❌ Downloads stop halfway:
+   → Check internet connection
+   → Try different format (MP3 → WAV or vice versa)
+
+❌ Windows blocks the .exe file:
+   → Right-click → Properties → Unblock → Apply
+
+
+📧 NEED HELP?
+=============
+Check README.md for detailed documentation
+or QUICKSTART.md for fast setup guide
+
+
+⚖️ LEGAL NOTICE:
+================
+For educational purposes only.
+Respect copyright laws and platform Terms of Service.
+Don't distribute copyrighted content without permission.
+
+
+═══════════════════════════════════════════════════════════════════
+              Made with ❤️ | Version 1.0 | 2025
+═══════════════════════════════════════════════════════════════════
